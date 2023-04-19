@@ -3,6 +3,16 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "images2.imgbox.com",
+        port: '',
+        pathname: '/**/**/**'
+      }
+    ]
+  }
 }
 
 module.exports = nextConfig
