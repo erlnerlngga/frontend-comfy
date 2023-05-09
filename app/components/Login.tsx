@@ -50,7 +50,7 @@ export default function Login({ closeLogin }: { closeLogin: () => void }) {
       </div>
 
       <div className="max-w-sm lg:max-w-md fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-50 w-full">
-        <div className="relativ bg-white rounded-md shadow p-8">
+        <div className="relative bg-white rounded-md shadow p-8">
           <div className="flex justify-between items-center mb-4">
             <h1 className="text-gray-700 text-xl font-bold">
               Login to our platform
